@@ -1,0 +1,13 @@
+{
+	"name": "snappy",
+	"description": "Snappy ''A fast compressor/decompressor'' Deimos Bindings",
+	"homepage": "https://code.google.com/p/snappy/",
+	"copyright": "Copyright © 2011 Martin Gieseking",
+	"authors": [
+		"Byron Heads"
+	],
+	"importPaths": ["."],
+	"targetType" : "sourceLibrary",
+	"libs-posix" : ["snappy"],
+	"sourcePaths" : [ "./deimos" ]
+}
