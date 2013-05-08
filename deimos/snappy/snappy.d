@@ -40,12 +40,14 @@ nothrow:
  * Return values; see the documentation for each function to know
  * what each can return.
  */
-enum snappy_status
+enum
 {
   SNAPPY_OK = 0,
   SNAPPY_INVALID_INPUT = 1,
   SNAPPY_BUFFER_TOO_SMALL = 2
-} 
+}
+
+alias int snappy_status;
 
 /*
  * Takes the data stored in "input[0..input_length-1]" and stores
